@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Word Mala Direta - Substituir Tags</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GC_MESSAGE_CLASS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Área funcional</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GO_DOCUMENTS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Documento</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GO_WORDAPP</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Applicaçao Word</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GO_WORDDOC</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Documento Word</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GO_WORDOBJ</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Word</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GT_DOWNLOAD</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Table with Strings</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GV_DOWNLOAD_PATH</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>File local para Upload ou Download</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GV_MIDDLE_FILENAME</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>File local para Upload ou Download</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GV_MIDDLE_FULLPATH</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>File local para Upload ou Download</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_WORD_MAILMERGE</CLSNAME>
+     <CMPNAME>GV_TEMPLATE_FILE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>File local para Upload ou Download</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
