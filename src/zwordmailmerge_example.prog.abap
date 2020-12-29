@@ -61,4 +61,11 @@ SELECT SINGLE matnr werks lgort umlme
   ENDIF.
 
 * Imprime documento
-  lo_word->print_document( ).
+  lo_word->print_document(
+    EXCEPTIONS
+      error_download_file = 1
+      others              = 2 ).
+  IF sy-subrc <> 0.
+   MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
+              WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
+  ENDIF.

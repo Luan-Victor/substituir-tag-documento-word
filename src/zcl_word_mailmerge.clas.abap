@@ -15,7 +15,9 @@ public section.
       !I_DOWNLOAD_PATH type RLGRAP-FILENAME
     exceptions
       FILE_DO_NOT_EXIST .
-  methods PRINT_DOCUMENT .
+  methods PRINT_DOCUMENT
+    exceptions
+      ERROR_DOWNLOAD_FILE .
 protected section.
 private section.
 
@@ -442,9 +444,7 @@ METHOD print_document.
       OTHERS         = 2
   ).
   IF sy-subrc <> 0.
-    MESSAGE ID sy-msgid TYPE sy-msgty NUMBER sy-msgno
-               WITH sy-msgv1 sy-msgv2 sy-msgv3 sy-msgv4.
-    RETURN.
+    raise error_download_file.
   ENDIF.
 
 * Open template document
